@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "settings": {
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {"slug": "u-white", "color": "rgb(255, 255, 255)", "name": "Udemy White"}
+            ],
+            "background": true,
+            "text": true,
+            "link": true,
+            "custom": true,
+            "duotone": [
+                {"slug": "u-pink-sunet", "colors": ["#11245e", "#dc4379"], "name": "Udemy Pink Sunset"}
+            ]
+        },
+        "blocks": {
+            "core/site-title":{
+                "color": {
+                    "palette": [
+                        {"slug": "u-white", "color": "rgb(255, 255, 255)", "name": "Udemy White"}
+                    ],
+                    "link": true,
+                    "custom": true,
+                    "duotone": [
+                        {"slug": "u-pink-sunet", "colors": ["#11245e", "#dc4379"], "name": "Udemy Pink Sunset"}
+                    ]
+                }
+            },
+            "core/cover": {
+                "color": {
+                    "duotone": [],
+                    "customDuotone": false
+                }
+            }
+        }
+    },
+    "styles": {
+        "color": {
+           "text": "rgb(55 65 81)" 
+        }
+    }
+}
